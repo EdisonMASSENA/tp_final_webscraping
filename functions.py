@@ -22,7 +22,7 @@ def appInfo():
 
     st.sidebar.title("Edison MASSENA")
 
-    st.sidebar.subheader("L'application permet de collecter des données sur les jeux vidéos de la plateforme Steam et de les stocker dans une base de données. Les données sont ensuite affichées dans une page de visualisation. Vous avez également la possibilité de faire une recherche sur un jeu en particulier. Selenium est utilisé pour le scraping car il était nécessaire de scroller la page pour charger les données supplémentaire. Lien: https://store.steampowered.com/search/?term=action")
+    st.sidebar.write("L'application permet de collecter des données sur les jeux vidéos de la plateforme Steam et de les stocker dans une base de données. Les données sont ensuite affichées dans une page de visualisation. Vous avez également la possibilité de faire une recherche sur un jeu en particulier. Selenium est utilisé pour le scraping car il était nécessaire de scroller la page pour charger les données supplémentaire. /// Lien scraping: https://store.steampowered.com/search/?term=action /// Streamlit Cloud: https://tpfinalwebscraping-2naa9gpyaq7vccm9fvqufa.streamlit.app/")
 
 
 class DataBase():
